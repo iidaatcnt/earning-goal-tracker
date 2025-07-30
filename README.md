@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Earning Goal Tracker - 稼ぎ目標トラッカー
 
-## Getting Started
+このプロジェクトは、稼ぎの目標達成を視覚的にサポートするWebアプリケーションです。
 
-First, run the development server:
+## 概要
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+目標金額、現在の金額、日々の増加額を設定することで、達成率をプログレスバーで表示し、目標達成へのモチベーションを維持します。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 機能
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-   **目標設定:** 目標タイトル、目標金額を設定できます。
+-   **金額入力:** 現在の金額と日々の増加額を入力できます。
+-   **達成率表示:** 目標に対する現在の達成率をプログレスバーで視覚的に表示します。
+-   **クイックアクション:** 今日の増加分を追加したり、設定をリセットしたりできます。
+-   **リアルタイム更新:** 入力値の変更が即座に反映されます。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使い方
 
-## Learn More
+1.  アプリを起動し、目標タイトル、目標金額、現在の金額、日々の増加額を入力します。
+2.  プログレスバーで目標達成への進捗を確認できます。
+3.  「今日の増加分を追加」ボタンをクリックすると、現在の金額に日々の増加分が加算されます。
+4.  「リセット」ボタンで初期設定に戻すことができます。
 
-To learn more about Next.js, take a look at the following resources:
+## 技術スタック
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **フレームワーク:** Next.js
+-   **ライブラリ:** React
+-   **言語:** JavaScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ライブデモ
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+（このプロジェクトがGitHub Pagesで公開されている場合、ここにURLを記載します。現状では不明なためプレースホルダーとします。）
